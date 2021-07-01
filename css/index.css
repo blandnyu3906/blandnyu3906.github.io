@@ -137,18 +137,36 @@
     position: absolute;
     /* height: 100%; */
     margin-left: 20%;
-    top: 40%;
-    right: 55%;
+    top: 35%;
+    right: 53%;
     /* transform: translateX(calc(-100% - 50px)); */
     /* background-color: purple; */
     /* line-height: 800px; */
 }
 
+.post .left2 {
+    position: absolute;
+    /* height: 100%; */
+    /* margin-left: 20%; */
+    top: 70%;
+    left: 53%;
+    margin-right: 20%;
+}
+
 .post .p1 {
     position: absolute;
     width: 300px;
-    left: 55%;
+    left: 53%;
     /* top: 40%; */
-    transform: translateY(calc(100%));
+    transform: translateY(calc(90%));
+    /* z-index: 10; */
+}
+
+.post .p2 {
+    position: absolute;
+    width: 300px;
+    right: 53%;
+    top: 63%;
+    /* transform: translateY(calc(100%)); */
     /* z-index: 10; */
 }
